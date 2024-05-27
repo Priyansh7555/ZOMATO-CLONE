@@ -1,0 +1,17 @@
+
+.img2{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 0;
+    width: 80%;
+    height: 450px;
+
+}
+
+.des{
+    border: 2px solid black;
+    background-color: lightblue;
+    padding: 50px;
+    text-align: center;
+    font-size: larger;
+}

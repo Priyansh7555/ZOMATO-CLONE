@@ -1,0 +1,141 @@
+/* .main{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+} */
+/* .maincontents{
+    display: flex;
+    justify-content: space-around; 
+} */
+/* .image{
+    margin: 0px;
+    padding: 5px;
+    height: 5px;
+    width: 50px; 
+    color: rgb(67, 46, 143);
+    margin-top: 0px;
+}
+.imagecontents{
+    display: flex;
+    margin-left: 50vh;
+    justify-content: space-around;
+}
+.btn{
+    background-color: transparent;
+    border: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 20px
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid rgb(238, 228, 228);
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 20px
+} */
+/* body{
+    background-image: url('../Assets/bg.jpg');
+} */
+.left{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 250px;
+    height: 520px;
+    box-shadow: 5px 5px white;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 300;
+}
+.subheading{
+    font-size: 30px;
+    font-weight: 300;
+}
+.tag{
+    width: 200px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 10px;
+}
+.breakfastheading{
+    margin-left: 200px;
+}
+.left{
+    display: inline-block;
+}
+.cusinehead{
+    margin-top: 20px;
+}
+.right1{
+    background-color: white;
+    margin-top: -511px;
+    margin-left: 490px;
+    width: 800px;
+    height: 210px;
+    box-shadow: 5px 5px white;
+}
+.right2{
+    background-color: white;
+    margin-top: 11px;
+    margin-left: 490px;
+    width: 800px;
+    height: 210px;
+    box-shadow: 5px 5px white;
+}
+.right3{
+    background-color: white;
+    margin-top: 11px;
+    margin-left: 490px;
+    width: 800px;
+    height: 210px;
+    box-shadow: 5px 5px white;
+}
+.right4{
+    background-color: white;
+    margin-top: 11px;
+    margin-left: 490px;
+    width: 800px;
+    height: 210px;
+    box-shadow: 5px 5px white;
+}
+.imageright{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.imgtxt{
+    margin-left: 190px;
+    margin-top: -110px;
+    font-size: 30px;
+}
+.imgtxt1{
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.imgtxt2{
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.bottom{
+    background-color:white;
+    width: 400px;
+    height: 30px;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.paginationbtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
