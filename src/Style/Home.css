@@ -42,6 +42,8 @@
     padding: 10px;
     background-color: #fff;
 font-size: 18px;
+
+
 }
 
 .searchBox{
@@ -60,7 +62,8 @@ font-size: 18px;
     background-color: #fff;
     padding-left: 30px;
     font-size: 18px;
-    /* list-style: none;
+
+        /* list-style: none;
         background-color: lightgray;
         background-image: linear-gradient(90deg, red 20px, lightgray 10px); padding: 10px 15px 10px 25px;
         border: 1px solid #CCC;
@@ -69,9 +72,12 @@ font-size: 18px;
         width: 100%;
         box-sizing: border-box; cursor: pointer;
         border-radius: 3px; */
+
 }
 .bottomSection{
    margin:50px 80px 80px 80px; 
+
+   
 }
 .qs-heading{
     height: 43px;
@@ -159,9 +165,9 @@ position: relative;
     }
 
 }
-@media(max-width:920px){
+@media(min-width:920px){
     .qs-box{
-        width: 49.54%;
+        width: 100%;
     }
     .qs-item-description{
         width: 140px;
@@ -172,53 +178,25 @@ position: relative;
         left: 180px;
         
     }
+   /* li{
 
-    li {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+
+   } */
+     li {
         list-style: none;
-        background-color: lightgray;
-        background-image: linear-gradient(90deg, red 20px, lightgray 10px);
-         padding: 10px 15px 10px 25px;
-        border: 1px solid #CCC;
+        background-color: rgb(201, 32, 32);
+        background-image: linear-gradient(40deg, red 50px, lightgray 10px);
+         padding: 1px 15px 15px 15px;
+        border: 1px solid #f53232;
         box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
-        margin-bottom: 5px;
-        width: 50;
+        margin-bottom: 1px;
+        width: 20;
         box-sizing: border-box; cursor: pointer;
         border-radius: 1px;
         margin: 0 0 0 21px;
-    }
-
-   #query {
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 19px;
-        padding: 5px;
-        font-family: calibri light;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        border-radius: 3px;
-        background-color: lightgray;
-        color: gray;
-        padding-left: 29px;
-   }
-
-    ul {
-            margin: 0 auto; padding: 0;
-            max-height: 390px;
-            overflow-y: auto;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            padding: 5px 5px 0 5px;
-            border-left: none;
-            border-right: none;
-    }
-
-    #notebook {
-            display: block; position: absolute; background: #FFD32E;
-            bottom: 35px;
-            left: -1px;
-            width: 360px;
-            border-radius: 0 0 5px 5px;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-            box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
-            }   
+        text-decoration: #f53232;
+    }   
 }

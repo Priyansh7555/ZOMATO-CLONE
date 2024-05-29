@@ -23,7 +23,8 @@ axios.get("http://localhost:3001/getRestaurantFilterByLocationId/"+locationId)
 handleSearch =(event) => {
     let inputText = event.target.value;
     // const {restaurants} = this.state;
-    console.log('user input => '+inputText)
+    //debugging line used to check user
+    console.log('input => '+inputText)
     const suggestions = this.state.restaurants.filter(item => item.name.toLowerCase().includes(inputText.toLowerCase()));
     this.setState({suggestions,inputText});
 }
@@ -85,6 +86,8 @@ showSuggestion =() => {
                         
                     </div>
                 </div>
+
+                
                 <div className="bottomSection">
                     <h1 className="qs-heading">Quick searches</h1>
                     <h3 className="qs-subheading">Discover restaurants by type of meal</h3>
